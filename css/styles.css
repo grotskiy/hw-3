@@ -149,7 +149,9 @@ img {
 /* ============ SERVICE ============ */
 
 .hero {
+  padding: 200px 0 200px 0;
   text-align: center;
+
   background-color: var(--accent-color-back);
 }
 
@@ -188,7 +190,18 @@ img {
 
 /* ============ SERVICE ============ */
 
+.skills {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.skills-section-list {
+  display: flex;
+}
+
 .skills-title {
+  padding-bottom: 10px;
+
   font-family: var(--main-font);
   font-weight: 700;
   font-size: 14px;
