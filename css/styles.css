@@ -8,8 +8,30 @@
   --accent-color-back: #2f303a;
   --accent-color-cont: rgba(255, 255, 255, 0.6);
   --accent-color-logo: #000000;
-  --accent-color-team: #F5F4FA;
+  --accent-color-team: #f5f4fa;
   --btn-hover: #188ce8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
 }
 
 .list {
@@ -20,9 +42,16 @@
   text-decoration: none;
 }
 
-body {
+.body {
   font-family: var(--main-font);
   color: var(--accent-color-title);
+}
+
+.container {
+  width: 1600px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
 /* ============ HEADER ============ */
@@ -161,7 +190,7 @@ body {
 
 /* ============ TEAM ============ */
 
-.team { 
+.team {
   background-color: var(--accent-color-team);
 }
 
@@ -266,7 +295,6 @@ body {
   color: var(--accent-color-text);
   background-color: var(--accent-color);
 }
-
 
 .btn-list:hover,
 .btn-list:focus {
