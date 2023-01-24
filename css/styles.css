@@ -54,6 +54,11 @@ img {
   margin: 0 auto;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* ============ HEADER ============ */
 
 .header-container {
@@ -190,13 +195,13 @@ img {
 
 /* ============ SERVICE ============ */
 
-.skills {
-  padding-top: 94px;
-  padding-bottom: 94px;
+.skills-menu {
+  display: flex;
+  justify-content: space-between;
 }
 
-.skills-section-list {
-  display: flex;
+.skills-item {
+  width: 270px;
 }
 
 .skills-title {
@@ -222,7 +227,18 @@ img {
 
 /* ============ ABOUT ============ */
 
+.about-section {
+  padding-bottom: 94px;
+}
+
+.about-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
 .about-title {
+  margin-bottom: 50px;
+
   text-align: center;
   font-family: var(--main-font);
   font-weight: 700;
@@ -234,11 +250,25 @@ img {
 
 /* ============ TEAM ============ */
 
-.team {
+.team-section {
   background-color: var(--accent-color-team);
 }
 
+.team-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-list {
+  background: var(--accent-color-text);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
 .team-title {
+  margin-bottom: 50px;
+
   text-align: center;
   font-family: var(--main-font);
   font-weight: 700;
@@ -246,6 +276,11 @@ img {
   line-height: 1.16;
   letter-spacing: 0.03em;
   color: var(--accent-color-title);
+}
+
+.team-desc {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team-name {
