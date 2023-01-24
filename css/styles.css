@@ -306,6 +306,9 @@ img {
 /* ============ FOOTER ============ */
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
   background-color: var(--accent-color-back);
 }
 
@@ -359,6 +362,10 @@ img {
 }
 
 /* ============ BUTTONS ============ */
+
+.btn-menu {
+  display: flex;
+}
 
 .btn-list {
   font-family: var(--main-font);
