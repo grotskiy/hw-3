@@ -62,6 +62,10 @@ img {
 
 /* ============ HEADER ============ */
 
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
 .header-container {
   display: flex;
   align-items: center;
@@ -162,21 +166,35 @@ img {
 }
 
 .main-title {
+  width: 696px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: var(--accent-color-text);
 }
 
 .modal-btn {
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+
   cursor: pointer;
   font-family: var(--main-font);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+  border-radius: 4px;
+
   color: var(--accent-color-text);
   background-color: var(--accent-color);
-
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
 }
 
 .main-title {
@@ -313,6 +331,10 @@ img {
   background-color: var(--accent-color-back);
 }
 
+.footer-adress {
+  margin-top: 20px;
+}
+
 .logo-white {
   font-family: var(--additional-font);
   font-weight: 700;
@@ -364,6 +386,9 @@ img {
 
 /* ============ BUTTONS ============ */
 
+.port-section {
+}
+
 .btn-menu {
   display: flex;
   justify-content: center;
@@ -410,7 +435,7 @@ img {
 }
 
 .portfolio-item {
-  flex-basis: calc((100% - 270px) / 9);
+  display: block;
   margin-left: 30px;
   margin-bottom: 30px;
 
